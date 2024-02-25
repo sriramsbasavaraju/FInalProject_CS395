@@ -5,7 +5,7 @@ const salesChart = new Chart(ctx, {
         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
         datasets: [{
             label: 'Monthly Revenue',
-            data: [10000, 12000, 14000, 16000, 18000, 20000, 22000, 24000, 26000, 28000, 30000, 32000],
+            data: [10000, 14000, 12000, 16000, 18000, 20000, 22000, 24000, 26000, 28000, 30000, 32000],
             backgroundColor: 'rgba(75, 192, 192, 0.2)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 2,
